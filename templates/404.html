@@ -1,0 +1,8 @@
+{% extends "index.html" %}
+
+{% block body %}
+<h1>404</h1>
+        {% if error %}
+            <div class='alert danger alert'><strong>Error:</strong> {{ error }}</div>
+        {% endif %}
+{% endblock %}
